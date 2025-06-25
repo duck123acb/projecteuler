@@ -12,4 +12,4 @@ def check(program_answer, problem):
     print(f"{program_answer} is correct! ✅")
     return
   
-  print(f"{program_answer} is correct! ❌")
+  print(f"{program_answer} is incorrect. ❌")
