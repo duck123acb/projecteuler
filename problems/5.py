@@ -3,22 +3,20 @@
 from utils import check
 
 def is_divisible(n):
-  for m in range 
-  11
-  12
-  13
-  14
-  15
-  16
-  17
-  18
-  19
-  20
+  for m in range(11, 21):
+    if n % m == 0:
+      continue
+    
+    return False
+  
+  return True
+
 
 def main():
-  final = 0
-  
-  # solve here ig
+  final = 2520
+
+  while not is_divisible(final):
+    final += 20
 
   return final
 
